@@ -1,0 +1,128 @@
+h1{
+    color: #000;
+}
+ul{
+    float:left;
+    color: #fff;
+}
+.header{
+   background-color:#333 ;
+   padding-left: 2%;
+   padding-right:2%;
+   padding-bottom: 5%;
+   padding-top:2%;
+}
+.picue{
+    display: flex;
+    justify-content: space-between;
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:3%;
+}
+.pic1{
+    height:30%;
+    width:30%;
+}
+.pic1 img{
+   height:80%;
+   width:80%;
+  
+}
+.pic2{
+    height:30%;
+    width:30%;
+}
+.pic2 img{
+   height:80%;
+   width:80%;
+}
+.pic3{
+    height:30%;
+    width:30%;
+}
+.pic3 img{
+   height:80%;
+   width:80%;
+}
+.shita{
+    display:flex;
+    justify-content:space-between;
+}
+.pic4{
+    display:flex;
+    flex-flow:column;
+    padding-left:5%;
+}
+.pic4 img{
+    padding-right: 30%;
+}
+.pic4 paragraph{
+    padding-left: 27%;
+}
+.pic5{
+    display:flex;
+    flex-flow:column;
+    padding-left:5%;
+}
+.pic5 paragraph{
+    padding-left:27%;
+}
+.pic5 img{
+    padding-right:30%
+}
+.pic6{
+    display:flex;
+    flex-flow:column;
+    padding-left:5%;
+}
+.pic6 img{
+    padding-right:30%;
+}
+.pic6 paragraph{
+    padding-left:27%;
+}
+.shitamigi{
+    display:flex;
+    flex-flow:column;
+    justify-content:space-between;
+    margin-left:-10%;
+}
+.insta{
+    margin-bottom:-50%;
+    padding-right: 30%;
+}
+.insta h2{
+    padding-left: 14%;
+}
+.insta paragraph{
+    padding-left:3%;
+}
+.ranking{
+    margin-left:-10%;
+    padding-right:0%;
+    margin-top:-10%;
+}
+.ranking paragraph{
+    padding-left:15%;
+}
+.ranking h2{
+    padding-left:30%;
+}
+.pic8 img{
+    display:flex;
+    flex-flow:column;
+   width:80%;
+}
+.pic9 img{
+    width:80%;
+    display:flex;
+    flex-flow:column;
+ }
+ .pic10 img{
+    width:80%;
+    display:flex;
+    flex-flow:column;
+ }
+ .footer{
+background-color: #faf0e6;
+ }
