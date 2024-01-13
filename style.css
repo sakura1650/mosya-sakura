@@ -15,8 +15,8 @@ ul{
 .picue{
     display: flex;
     justify-content: space-between;
-    padding-left:3%;
-    padding-right:3%;
+    padding-left:13%;
+    padding-right:13%;
     padding-top:3%;
 }
 .pic1{
@@ -26,7 +26,9 @@ ul{
 .pic1 img{
    height:80%;
    width:80%;
-  
+}
+.pic1 h4{
+    padding-right: 20%;
 }
 .pic2{
     height:30%;
@@ -36,6 +38,9 @@ ul{
    height:80%;
    width:80%;
 }
+.pic2 h4{
+    padding-right:20%;
+}
 .pic3{
     height:30%;
     width:30%;
@@ -44,6 +49,9 @@ ul{
    height:80%;
    width:80%;
 }
+.pic3 h4{
+    padding-right:20%;
+}
 .shita{
     display:flex;
     justify-content:space-between;
@@ -51,21 +59,27 @@ ul{
 .pic4{
     display:flex;
     flex-flow:column;
-    padding-left:5%;
+    padding-left:15%;
 }
 .pic4 img{
     padding-right: 30%;
 }
 .pic4 paragraph{
-    padding-left: 27%;
+    padding-left: 10%;
+    padding-right:40%;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 .pic5{
     display:flex;
     flex-flow:column;
-    padding-left:5%;
+    padding-left:15%;
 }
 .pic5 paragraph{
-    padding-left:27%;
+    padding-left: 10%;
+    padding-right:40%;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 .pic5 img{
     padding-right:30%
@@ -73,56 +87,161 @@ ul{
 .pic6{
     display:flex;
     flex-flow:column;
-    padding-left:5%;
+    padding-left:15%;
 }
 .pic6 img{
     padding-right:30%;
 }
 .pic6 paragraph{
-    padding-left:27%;
+    padding-left: 10%;
+    padding-right:40%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.pic7{
+    padding-top:0%;
+}
+.shitahidari{
+    width:70%
 }
 .shitamigi{
     display:flex;
     flex-flow:column;
-    justify-content:space-between;
-    margin-left:-10%;
+   margin-left: -10%;
 }
 .insta{
-    margin-bottom:-50%;
-    padding-right: 30%;
+    margin-bottom:0%;
+    padding-right: 10%;
+
 }
 .insta h2{
-    padding-left: 14%;
+    padding-left: 16%;
 }
 .insta paragraph{
-    padding-left:3%;
+    padding-left:6%;
 }
 .ranking{
     margin-left:-10%;
     padding-right:0%;
-    margin-top:-10%;
+    margin-top:0%
 }
 .ranking paragraph{
-    padding-left:15%;
+    padding-left:9%;
+    padding-top:3%;
+    padding-bottom:3%;
 }
 .ranking h2{
-    padding-left:30%;
+    padding-left:20%;
+}
+.pic8{
+    display:flex;
+    flex-flow:column;
 }
 .pic8 img{
+   width:60%;
+}
+.pic9{
     display:flex;
     flex-flow:column;
-   width:80%;
 }
 .pic9 img{
-    width:80%;
+   width:60%;
+}
+.pic10{
     display:flex;
     flex-flow:column;
- }
- .pic10 img{
-    width:80%;
+}
+.pic10 img{
+   width:60%;
+}
+.archive{
     display:flex;
     flex-flow:column;
+    width:130px
+}
+.archive h2{
+    padding-left:45%;
+}
+.archive li{
+    list-style: none;
+    font-size:180%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: solid 1px #777;
+}
+.list{
+    width:200%;
+}
+
+/* .shitamigi{
+    width: 30%;
+    text-align: center;
+}
+.instaimg{
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.subtitle{
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.ranking{
+    margin-top: 60px;
+}
+.rankingpic{
+    margin: 0 auto;
+    width: 345.44px;
+    height: 194.3px;
+    margin-bottom: 10px;
+}
+.rankingmozi{
+    padding-bottom: 30px;
+}
+li{
+    display: list-item;
+} */
+ .below{
+    padding: 0 16px;
+    margin: 0 auto;
  }
  .footer{
-background-color: #faf0e6;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
  }
+ .footer-item{
+    width:30%
+ }
+ .about{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 30px;
+ }
+ .menu{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 30px;
+ }
+ .twitter{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 30px;
+ }
+ .aboutlist{
+    padding: 20px 0;
+    list-style: none;
+ }
+ .menulist{
+    list-style: none;
+ }
+ .menulist li{
+    padding: 15px;
+    border-bottom: solid 1px #777;
+ }
+
+ /* fight-sakurachan!!!!!!! */
